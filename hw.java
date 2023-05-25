@@ -33,7 +33,7 @@ public class hw{
         this.model = model;
         this.brand = brand;
         this.id = id;
-        System.out.println("Ноутбук марки "+"'"+ this.brand+"'"+" Модель "+this.model+" С id " +Integer.toString(this.id));
+        System.out.println("Марка ноутбука "+"'"+ this.brand+"'"+" Модель "+this.model+" С id " +Integer.toString(this.id));
     }
     public String getColor(){
         return this.color;
@@ -75,7 +75,7 @@ public class hw{
         if (isBooked==false){
             this.isBooked=true;
         }
-        else System.out.println("Этот ноутбук уже зарезервирован");
+        else System.out.println("Данного товара нет в наличии");
     }
     @Override
     public String toString(){
